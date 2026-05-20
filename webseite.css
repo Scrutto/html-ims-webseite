@@ -1,0 +1,29 @@
+body {
+  margin: 0px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  background-color: black;
+}
+
+.navigation {
+  display: flex;
+  gap: 20px;
+}
+
+.navigation a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.startseite {
+  width: 650px;
+  padding: 0px;
+  border: 10px solid #000000;
+  margin: 50px;
+  justify-content: flex-end;
+  font-size: 100px;
+}
