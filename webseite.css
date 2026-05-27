@@ -1,0 +1,98 @@
+body {
+  margin: 4%;
+  padding: 1% 1%;
+}
+
+nav {
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 1vw 2vw;
+  background-color: black;
+}
+
+.navigation {
+  display: flex;
+  gap: 20%;
+}
+
+.navigation a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 2rem;
+}
+
+.nav-logo {
+  display: flex;
+  margin-left: auto;
+}
+
+.start {
+  justify-content: center;
+  padding: 1% 0%;
+}
+
+/*Bild + Text*/
+.hallo {
+  display: flex;
+  align-items: center;
+  margin: 3% 1% 0% 1%;
+}
+
+/*Herzlich Willkommen*/
+.begrüssung {
+  width: 35%;
+  height: 10%;
+  margin: 8% 1%;
+  font-size: clamp(3rem, 5vw, 8rem);
+}
+
+.startbild {
+  margin-right: auto;
+  width: 55%;
+  height: 28%;
+  margin: 4% 1% 4% 13%;
+}
+
+.startbild img {
+  width: 100%;
+}
+
+.begrüssungstext {
+  width: 100%;
+  padding: 0vw;
+  border: 0vw;
+  margin: auto;
+  font-size: 3rem;
+  line-height: 4rem;
+}
+
+p {
+  font-size: clamp(3rem, 5vw, 8rem);
+}
+
+.lj1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1vw;
+}
+
+.modulbild img {
+  width: 4vw;
+  display: block;
+}
+
+.m1 {
+  display: flex;
+  align-items: center;
+  gap: 1vw;
+  padding: 1vw;
+  background-color: RGB(204 204 0);
+}
+
+.modbes1 {
+  font-size: 2rem;
+}
