@@ -1,354 +1,374 @@
 <!doctype html>
 <html lang="de">
   <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMS Recap Portfolio 25/26</title>
     <link rel="stylesheet" href="webseite.css" />
   </head>
 
   <body>
-    <nav>
-      <div class="navigation">
-        <a href="#start">Start</a>
-        <a href="#faehigkeiten">Fähigkeiten</a>
-        <a href="#recap">Recap25/26</a>
-        <a href="#kontakt">Kontakt</a>
+    <header class="navbar">
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#skills">Fähigkeiten</a></li>
+          <li><a href="#recap">Recap 25/26</a></li>
+          <li><a href="#kontakt">Kontakt</a></li>
+        </ul>
+      </nav>
+      <div class="logo-container">
+        <img src="IMS-T Logo - 5 - negativ.svg" alt="IMS-Logo" class="imst-logo">
       </div>
-      <div class="nav-logo">
-        <img src="IMS-T Logo - 5 - negativ.svg" alt="IMS-Logo" width="55%" />
-      </div>
-    </nav>
+    </header>
 
-    <section id="start" class="start">
-      <div class="hallo">
-        <div class="startbild">
-         <img src="two-different-breeds-of-cats-side-by-side-outdoors-in-the-garden.webp" alt="Bild"/>
+    <section id="home" class="start-section">
+      <div class="start-header">
+        <div class="start-profile-picture">
+         <video autoplay loop muted playsinline class="header-media__file ce-media-video video-player__source lazyLoad isLoaded">
+            <source src="https://api.gbssg.ch/fileadmin/user_upload/videos/Technik/2025/IMS-T_course_square_3mbit.mp4" type="video/mp4">
+          </video>
        </div>
-       <div class="begrüssung">Herzlich Willkommen zum IMS-T 2025/26 Recap!</div>
+       <div class="start-titles">
+        <h1>Herzlich</h1>
+        <h1>Willkommen</h1>
+        <h1>zum IMS-T 2025/26</h1>
+        <h1>Recap!</h1>
+      </div>
      </div>
 
-      <div class="begrüssungstext">
+      <p class="start-intro-text">
        Willkommen auf der offiziellen Plattform der IMS-T an der GBS St. Gallen. Diese Seite dokumentiert
        die Meilensteine, vielseitigen Projekte und persönlichen Highlights unseres Lehrjahres. Sie bietet 
        einen direkten Einblick in unsere praxisnahe Ausbildung an der Schnittstelle von Informatik 
        und technischer Vertiefung. Begleiten Sie uns auf unserem Weg zu den IT-Professionals von morgen und entdecken 
        Sie die Kompetenzen, die wir im Laufe unserer Schulzeit 2025/26 erworben und vertieft haben.
-      </div>
+      </p>
     </section>
 
-    <section id="faehigkeiten">
-      <p>Erworbene Fähigkeiten</p>
-      <h5>1. Lehrjahr</h5>
-      <div class="lj1">
-          <div class="m1">             
-            <div class="modulbild">
-              <img src="PRODUCTS-HERO-WEBSITE_832x472-HamburgerSingle_nutrition-calculator-tile.avif" alt="Hamburger"/>
-            </div>
-            <div class= "modbes1">
-              <b>Git<br></b>
-              Verschiedene Versionen verwalten
-            </div>
-          </div>
+    <section id="skills" class="skills-section">
+    <h2>Erworbene Fähigkeiten</h2>
 
-          <div class="m1">             
-            <div class="modulbild">
-              <img src="PRODUCTS-HERO-WEBSITE_832x472-HamburgerSingle_nutrition-calculator-tile.avif" alt="Hamburger"/>
-            </div>
-            <div class= "modbes1">
-              <b>Modul 293<br></b>
-              Eigene Webseite bauen und gestalten (mit HTML und CSS)
-            </div>
+    <div class="skill-category">
+      <h3>1. Lehrjahr</h3>
+      <div class="skills-grid">
+          <div class="skill-box">
+            <div class="skill-icon"><img src="PRODUCTS-HERO-WEBSITE_832x472-HamburgerSingle_nutrition-calculator-tile.avif" alt=""></div>
+              <span>
+                <b>Git<br></b>
+                Verschiedene Versionen verwalten
+              </span>
+          </div>            
+          <div class="skill-box">
+            <div class="skill-icon"><img src="PRODUCTS-HERO-WEBSITE_832x472-HamburgerSingle_nutrition-calculator-tile.avif" alt=""></div>
+              <span>
+                <b>Modul 293<br></b>
+                Eigene Webseite bauen und gestalten (mit HTML und CSS)
+              </span>
           </div>
-
-          <div class="m1">             
-            <div class="modulbild">
-              <img src="PRODUCTS-HERO-WEBSITE_832x472-HamburgerSingle_nutrition-calculator-tile.avif" alt="Hamburger"/>
-            </div>
-            <div class= "modbes1">
-              <b>Markdown<br></b>
-              Vereinfachte Textformatierungssprache
-            </div>
+          <div class="skill-box">
+            <div class="skill-icon"><img src="PRODUCTS-HERO-WEBSITE_832x472-HamburgerSingle_nutrition-calculator-tile.avif" alt=""></div>
+              <span>
+                <b>Markdown<br></b>
+                Vereinfachte Textformatierungssprache
+              </span>
           </div>
-
-          <div class="m1">             
-            <div class="modulbild">
-              <img src="PRODUCTS-HERO-WEBSITE_832x472-HamburgerSingle_nutrition-calculator-tile.avif" alt="Hamburger"/>
-            </div>
-            <div class= "modbes1">
-              <b>Modul 122<br></b>
-              Routineaufgaben automatisieren (Scripting, PowerShell, ...)
-            </div>
+          <div class="skill-box">
+            <div class="skill-icon"><img src="PRODUCTS-HERO-WEBSITE_832x472-HamburgerSingle_nutrition-calculator-tile.avif" alt=""></div>
+              <span>
+                <b>Modul 122<br></b>
+                Routineaufgaben automatisieren (Scripting, PowerShel, ...)
+              </span>
           </div>
-
-          <div class="m1">             
-            <div class="modulbild">
-              <img src="PRODUCTS-HERO-WEBSITE_832x472-HamburgerSingle_nutrition-calculator-tile.avif" alt="Hamburger"/>
-            </div>
-            <div class= "modbes1">
-              <b>EDUDEMOS<br></b>
-              Elektronische Sonnenblume bauen, mit Dashboard verbinden
-            </div>
+          <div class="skill-box">
+            <div class="skill-icon"><img src="PRODUCTS-HERO-WEBSITE_832x472-HamburgerSingle_nutrition-calculator-tile.avif" alt=""></div>
+              <span>
+                <b>Projekt<br></b>
+                Elektronische Sonnenblume bauen, mit Dashboard verbinden
+              </span>
           </div>
-
-          <div class="m1">             
-            <div class="modulbild">
-              <img src="PRODUCTS-HERO-WEBSITE_832x472-HamburgerSingle_nutrition-calculator-tile.avif" alt="Hamburger"/>
-            </div>
-            <div class= "modbes1">
-              <b>Modul 177 & 187<br></b>
-              Netzwerk-Architektur, PC-Setup, IP-Adressing, usw...
-            </div>
+          <div class="skill-box">
+            <div class="skill-icon"><img src="PRODUCTS-HERO-WEBSITE_832x472-HamburgerSingle_nutrition-calculator-tile.avif" alt=""></div>
+              <span>
+                <b>Modul 177 & 187<br></b>
+                Netzwerk-Architektur, PC-Setup, IP-Adressing, usw...
+              </span>
           </div>
-
-          <div class="m1">             
-            <div class="modulbild">
-              <img src="PRODUCTS-HERO-WEBSITE_832x472-HamburgerSingle_nutrition-calculator-tile.avif" alt="Hamburger"/>
-            </div>
-            <div class= "modbes1">
-              <b>Programmiersprache C & C#<br></b>
-              Algorythmen, Loops, logisches Denken des Computers
-            </div>
+          <div class="skill-box">
+            <div class="skill-icon"><img src="PRODUCTS-HERO-WEBSITE_832x472-HamburgerSingle_nutrition-calculator-tile.avif" alt=""></div>
+              <span>
+                <b>Programmiersprache C & C#<br></b>
+                Algorythmen, Loops, logisches Denken des Computers
+              </span>
           </div>
-
-          <div class="m1">             
-            <div class="modulbild">
-              <img src="PRODUCTS-HERO-WEBSITE_832x472-HamburgerSingle_nutrition-calculator-tile.avif" alt="Hamburger"/>
-            </div>
-            <div class= "modbes1">
-              <b>Modul 162, 164, 106<br></b>
-              Datenbanken planen, erstellen und anwenden
-            </div>
+          <div class="skill-box">
+            <div class="skill-icon"><img src="PRODUCTS-HERO-WEBSITE_832x472-HamburgerSingle_nutrition-calculator-tile.avif" alt=""></div>
+              <span>
+                <b>Modul 162, 164, 106<br></b>
+                Datenbanken planen, erstellen und anwenden
+              </span>
           </div>
-          
-          <div class="m1">             
-            <div class="modulbild">
-              <img src="PRODUCTS-HERO-WEBSITE_832x472-HamburgerSingle_nutrition-calculator-tile.avif" alt="Hamburger"/>
-            </div>
-            <div class= "modbes1">
-              <b>Nand<br></b>
-              Digitale Logik, Binärsignale und elektronische Schaltungen verstehen
-            </div>
+          <div class="skill-box">
+            <div class="skill-icon"><img src="PRODUCTS-HERO-WEBSITE_832x472-HamburgerSingle_nutrition-calculator-tile.avif" alt=""></div>
+              <span>
+                <b>Nand<br></b>
+                  Digitale Logik, Binärsignale und elektronische Schaltungen verstehen
+              </span>
           </div>
-
-          <div class="m1">             
-            <div class="modulbild">
-              <img src="PRODUCTS-HERO-WEBSITE_832x472-HamburgerSingle_nutrition-calculator-tile.avif" alt="Hamburger"/>
-            </div>
-            <div class= "modbes1">
-              <b>Modul 231 & 431<br></b>
-              Datenschutz, Projektmanagement, Datensicherheit, usw..
-            </div>
+          <div class="skill-box">
+            <div class="skill-icon"><img src="PRODUCTS-HERO-WEBSITE_832x472-HamburgerSingle_nutrition-calculator-tile.avif" alt=""></div>
+              <span>
+                <b>Modul 231 & 431<br></b>
+                Datenschutz, Projektmanagement, Datensicherheit, usw..
+              </span>
           </div>
       </div>
-
-      <h5>2. Lehrjahr</h5>
-      <div class="lj1">      
-          <div class="m1">             
-            <div class="modulbild">
-              <img src="PRODUCTS-HERO-WEBSITE_832x472-HamburgerSingle_nutrition-calculator-tile.avif" alt="Hamburger"/>
-            </div>
-            <div class= "modbes1">
-              <b>Git<br></b>
-              Verschiedene Versionen verwalten
-            </div>
-          </div>
-
-          <div class="m1">             
-            <div class="modulbild">
-              <img src="PRODUCTS-HERO-WEBSITE_832x472-HamburgerSingle_nutrition-calculator-tile.avif" alt="Hamburger"/>
-            </div>
-            <div class= "modbes1">
-              <b>Modul 293<br></b>
-              Eigene Webseite bauen und gestalten (mit HTML und CSS)
-            </div>
-          </div>
-
-          <div class="m1">             
-            <div class="modulbild">
-              <img src="PRODUCTS-HERO-WEBSITE_832x472-HamburgerSingle_nutrition-calculator-tile.avif" alt="Hamburger"/>
-            </div>
-            <div class= "modbes1">
-              <b>Markdown<br></b>
-              Vereinfachte Textformatierungssprache
-            </div>
-          </div>
-
-          <div class="m1">             
-            <div class="modulbild">
-              <img src="PRODUCTS-HERO-WEBSITE_832x472-HamburgerSingle_nutrition-calculator-tile.avif" alt="Hamburger"/>
-            </div>
-            <div class= "modbes1">
-              <b>Modul 122<br></b>
-              Routineaufgaben automatisieren (Scripting, PowerShell, ...)
-            </div>
-          </div>
-
-          <div class="m1">             
-            <div class="modulbild">
-              <img src="PRODUCTS-HERO-WEBSITE_832x472-HamburgerSingle_nutrition-calculator-tile.avif" alt="Hamburger"/>
-            </div>
-            <div class= "modbes1">
-              <b>EDUDEMOS<br></b>
-              Elektronische Sonnenblume bauen, mit Dashboard verbinden
-            </div>
-          </div>
-
-          <div class="m1">             
-            <div class="modulbild">
-              <img src="PRODUCTS-HERO-WEBSITE_832x472-HamburgerSingle_nutrition-calculator-tile.avif" alt="Hamburger"/>
-            </div>
-            <div class= "modbes1">
-              <b>Modul 177 & 187<br></b>
-              Netzwerk-Architektur, PC-Setup, IP-Adressing, usw...
-            </div>
-          </div>
-
-          <div class="m1">             
-            <div class="modulbild">
-              <img src="PRODUCTS-HERO-WEBSITE_832x472-HamburgerSingle_nutrition-calculator-tile.avif" alt="Hamburger"/>
-            </div>
-            <div class= "modbes1">
-              <b>Programmiersprache C & C#<br></b>
-              Algorythmen, Loops, logisches Denken des Computers
-            </div>
-          </div>
-
-          <div class="m1">             
-            <div class="modulbild">
-              <img src="PRODUCTS-HERO-WEBSITE_832x472-HamburgerSingle_nutrition-calculator-tile.avif" alt="Hamburger"/>
-            </div>
-            <div class= "modbes1">
-              <b>Modul 162, 164, 106<br></b>
-              Datenbanken planen, erstellen und anwenden
-            </div>
-          </div>
-          
-          <div class="m1">             
-            <div class="modulbild">
-              <img src="PRODUCTS-HERO-WEBSITE_832x472-HamburgerSingle_nutrition-calculator-tile.avif" alt="Hamburger"/>
-            </div>
-            <div class= "modbes1">
-              <b>Nand<br></b>
-              Digitale Logik, Binärsignale und elektronische Schaltungen verstehen
-            </div>
-          </div>
-
-          <div class="m1">             
-            <div class="modulbild">
-              <img src="PRODUCTS-HERO-WEBSITE_832x472-HamburgerSingle_nutrition-calculator-tile.avif" alt="Hamburger"/>
-            </div>
-            <div class= "modbes1">
-              <b>Modul 231 & 431<br></b>
-              Datenschutz, Projektmanagement, Datensicherheit, usw..
-            </div>
-          </div>
-        </div>
-
-        <h5>3. Lehrjahr</h5>
-      <div class="lj1">      
-          <div class="m1">             
-            <div class="modulbild">
-              <img src="PRODUCTS-HERO-WEBSITE_832x472-HamburgerSingle_nutrition-calculator-tile.avif" alt="Hamburger"/>
-            </div>
-            <div class= "modbes1">
-              <b>Git<br></b>
-              Verschiedene Versionen verwalten
-            </div>
-          </div>
-
-          <div class="m1">             
-            <div class="modulbild">
-              <img src="PRODUCTS-HERO-WEBSITE_832x472-HamburgerSingle_nutrition-calculator-tile.avif" alt="Hamburger"/>
-            </div>
-            <div class= "modbes1">
-              <b>Modul 293<br></b>
-              Eigene Webseite bauen und gestalten (mit HTML und CSS)
-            </div>
-          </div>
-
-          <div class="m1">             
-            <div class="modulbild">
-              <img src="PRODUCTS-HERO-WEBSITE_832x472-HamburgerSingle_nutrition-calculator-tile.avif" alt="Hamburger"/>
-            </div>
-            <div class= "modbes1">
-              <b>Markdown<br></b>
-              Vereinfachte Textformatierungssprache
-            </div>
-          </div>
-
-          <div class="m1">             
-            <div class="modulbild">
-              <img src="PRODUCTS-HERO-WEBSITE_832x472-HamburgerSingle_nutrition-calculator-tile.avif" alt="Hamburger"/>
-            </div>
-            <div class= "modbes1">
-              <b>Modul 122<br></b>
-              Routineaufgaben automatisieren (Scripting, PowerShell, ...)
-            </div>
-          </div>
-
-          <div class="m1">             
-            <div class="modulbild">
-              <img src="PRODUCTS-HERO-WEBSITE_832x472-HamburgerSingle_nutrition-calculator-tile.avif" alt="Hamburger"/>
-            </div>
-            <div class= "modbes1">
-              <b>EDUDEMOS<br></b>
-              Elektronische Sonnenblume bauen, mit Dashboard verbinden
-            </div>
-          </div>
-
-          <div class="m1">             
-            <div class="modulbild">
-              <img src="PRODUCTS-HERO-WEBSITE_832x472-HamburgerSingle_nutrition-calculator-tile.avif" alt="Hamburger"/>
-            </div>
-            <div class= "modbes1">
-              <b>Modul 177 & 187<br></b>
-              Netzwerk-Architektur, PC-Setup, IP-Adressing, usw...
-            </div>
-          </div>
-
-          <div class="m1">             
-            <div class="modulbild">
-              <img src="PRODUCTS-HERO-WEBSITE_832x472-HamburgerSingle_nutrition-calculator-tile.avif" alt="Hamburger"/>
-            </div>
-            <div class= "modbes1">
-              <b>Programmiersprache C & C#<br></b>
-              Algorythmen, Loops, logisches Denken des Computers
-            </div>
-          </div>
-
-          <div class="m1">             
-            <div class="modulbild">
-              <img src="PRODUCTS-HERO-WEBSITE_832x472-HamburgerSingle_nutrition-calculator-tile.avif" alt="Hamburger"/>
-            </div>
-            <div class= "modbes1">
-              <b>Modul 162, 164, 106<br></b>
-              Datenbanken planen, erstellen und anwenden
-            </div>
-          </div>
-          
-          <div class="m1">             
-            <div class="modulbild">
-              <img src="PRODUCTS-HERO-WEBSITE_832x472-HamburgerSingle_nutrition-calculator-tile.avif" alt="Hamburger"/>
-            </div>
-            <div class= "modbes1">
-              <b>Nand<br></b>
-              Digitale Logik, Binärsignale und elektronische Schaltungen verstehen
-            </div>
-          </div>
-
-          <div class="m1">             
-            <div class="modulbild">
-              <img src="PRODUCTS-HERO-WEBSITE_832x472-HamburgerSingle_nutrition-calculator-tile.avif" alt="Hamburger"/>
-            </div>
-            <div class= "modbes1">
-              <b>Modul 231 & 431<br></b>
-              Datenschutz, Projektmanagement, Datensicherheit, usw..
-            </div>
-          </div>
-        </div>
-
-    </section>
+    </div>
     
-    <section id="recap"></section>
-    <section id="kontakt"></section>
+    <div class="skill-category">
+      <h3>2. Lehrjahr</h3>
+      <div class="skills-grid">
+          <div class="skill-box">
+            <div class="skill-icon"><img src="PRODUCTS-HERO-WEBSITE_832x472-HamburgerSingle_nutrition-calculator-tile.avif" alt=""></div>
+              <span>
+                <b>Git<br></b>
+                Verschiedene Versionen verwalten
+              </span>
+          </div>            
+          <div class="skill-box">
+            <div class="skill-icon"><img src="PRODUCTS-HERO-WEBSITE_832x472-HamburgerSingle_nutrition-calculator-tile.avif" alt=""></div>
+              <span>
+                <b>Modul 293<br></b>
+                Eigene Webseite bauen und gestalten (mit HTML und CSS)
+              </span>
+          </div>
+          <div class="skill-box">
+            <div class="skill-icon"><img src="PRODUCTS-HERO-WEBSITE_832x472-HamburgerSingle_nutrition-calculator-tile.avif" alt=""></div>
+              <span>
+                <b>Markdown<br></b>
+                Vereinfachte Textformatierungssprache
+              </span>
+          </div>
+          <div class="skill-box">
+            <div class="skill-icon"><img src="PRODUCTS-HERO-WEBSITE_832x472-HamburgerSingle_nutrition-calculator-tile.avif" alt=""></div>
+              <span>
+                <b>Modul 122<br></b>
+                Routineaufgaben automatisieren (Scripting, PowerShel, ...)
+              </span>
+          </div>
+          <div class="skill-box">
+            <div class="skill-icon"><img src="PRODUCTS-HERO-WEBSITE_832x472-HamburgerSingle_nutrition-calculator-tile.avif" alt=""></div>
+              <span>
+                <b>EDUDEMOS<br></b>
+                Elektronische Sonnenblume bauen, mit Dashboard verbinden
+              </span>
+          </div>
+          <div class="skill-box">
+            <div class="skill-icon"><img src="PRODUCTS-HERO-WEBSITE_832x472-HamburgerSingle_nutrition-calculator-tile.avif" alt=""></div>
+              <span>
+                <b>Modul 177 & 187<br></b>
+                Netzwerk-Architektur, PC-Setup, IP-Adressing, usw...
+              </span>
+          </div>
+          <div class="skill-box">
+            <div class="skill-icon"><img src="PRODUCTS-HERO-WEBSITE_832x472-HamburgerSingle_nutrition-calculator-tile.avif" alt=""></div>
+              <span>
+                <b>Programmiersprache C & C#<br></b>
+                Algorythmen, Loops, logisches Denken des Computers
+              </span>
+          </div>
+          <div class="skill-box">
+            <div class="skill-icon"><img src="PRODUCTS-HERO-WEBSITE_832x472-HamburgerSingle_nutrition-calculator-tile.avif" alt=""></div>
+              <span>
+                <b>Modul 162, 164, 106<br></b>
+                Datenbanken planen, erstellen und anwenden
+              </span>
+          </div>
+          <div class="skill-box">
+            <div class="skill-icon"><img src="PRODUCTS-HERO-WEBSITE_832x472-HamburgerSingle_nutrition-calculator-tile.avif" alt=""></div>
+              <span>
+                <b>Nand<br></b>
+                  Digitale Logik, Binärsignale und elektronische Schaltungen verstehen
+              </span>
+          </div>
+          <div class="skill-box">
+            <div class="skill-icon"><img src="PRODUCTS-HERO-WEBSITE_832x472-HamburgerSingle_nutrition-calculator-tile.avif" alt=""></div>
+              <span>
+                <b>Modul 231 & 431<br></b>
+                Datenschutz, Projektmanagement, Datensicherheit, usw..
+              </span>
+          </div>
+      </div>
+      <div class="skill-category">
+      <h3>3. Lehrjahr</h3>
+      <div class="skills-grid">
+          <div class="skill-box">
+            <div class="skill-icon"><img src="PRODUCTS-HERO-WEBSITE_832x472-HamburgerSingle_nutrition-calculator-tile.avif" alt=""></div>
+              <span>
+                <b>Git<br></b>
+                Verschiedene Versionen verwalten
+              </span>
+          </div>            
+          <div class="skill-box">
+            <div class="skill-icon"><img src="PRODUCTS-HERO-WEBSITE_832x472-HamburgerSingle_nutrition-calculator-tile.avif" alt=""></div>
+              <span>
+                <b>Modul 293<br></b>
+                Eigene Webseite bauen und gestalten (mit HTML und CSS)
+              </span>
+          </div>
+          <div class="skill-box">
+            <div class="skill-icon"><img src="PRODUCTS-HERO-WEBSITE_832x472-HamburgerSingle_nutrition-calculator-tile.avif" alt=""></div>
+              <span>
+                <b>Markdown<br></b>
+                Vereinfachte Textformatierungssprache
+              </span>
+          </div>
+          <div class="skill-box">
+            <div class="skill-icon"><img src="PRODUCTS-HERO-WEBSITE_832x472-HamburgerSingle_nutrition-calculator-tile.avif" alt=""></div>
+              <span>
+                <b>Modul 122<br></b>
+                Routineaufgaben automatisieren (Scripting, PowerShel, ...)
+              </span>
+          </div>
+          <div class="skill-box">
+            <div class="skill-icon"><img src="PRODUCTS-HERO-WEBSITE_832x472-HamburgerSingle_nutrition-calculator-tile.avif" alt=""></div>
+              <span>
+                <b>EDUDEMOS<br></b>
+                Elektronische Sonnenblume bauen, mit Dashboard verbinden
+              </span>
+          </div>
+          <div class="skill-box">
+            <div class="skill-icon"><img src="PRODUCTS-HERO-WEBSITE_832x472-HamburgerSingle_nutrition-calculator-tile.avif" alt=""></div>
+              <span>
+                <b>Modul 177 & 187<br></b>
+                Netzwerk-Architektur, PC-Setup, IP-Adressing, usw...
+              </span>
+          </div>
+          <div class="skill-box">
+            <div class="skill-icon"><img src="PRODUCTS-HERO-WEBSITE_832x472-HamburgerSingle_nutrition-calculator-tile.avif" alt=""></div>
+              <span>
+                <b>Programmiersprache C & C#<br></b>
+                Algorythmen, Loops, logisches Denken des Computers
+              </span>
+          </div>
+          <div class="skill-box">
+            <div class="skill-icon"><img src="PRODUCTS-HERO-WEBSITE_832x472-HamburgerSingle_nutrition-calculator-tile.avif" alt=""></div>
+              <span>
+                <b>Modul 162, 164, 106<br></b>
+                Datenbanken planen, erstellen und anwenden
+              </span>
+          </div>
+          <div class="skill-box">
+            <div class="skill-icon"><img src="PRODUCTS-HERO-WEBSITE_832x472-HamburgerSingle_nutrition-calculator-tile.avif" alt=""></div>
+              <span>
+                <b>Nand<br></b>
+                  Digitale Logik, Binärsignale und elektronische Schaltungen verstehen
+              </span>
+          </div>
+          <div class="skill-box">
+            <div class="skill-icon"><img src="PRODUCTS-HERO-WEBSITE_832x472-HamburgerSingle_nutrition-calculator-tile.avif" alt=""></div>
+              <span>
+                <b>Modul 231 & 431<br></b>
+                Datenschutz, Projektmanagement, Datensicherheit, usw..
+              </span>
+          </div>
+      </div>    
+    
+    <section id="recap" class="recap-section">
+      <h2>Recap Lehrjahr 25/26</h2>
+
+      <div class="timeline-container">
+        <div class="timeline-line"></div>
+
+        <div class="timeline-entry">
+          <div class="timeline-date-container">
+            <span class="timeline-dot"></span>
+            <div class="timeline-date-marker">August</div>
+          </div>
+          <div class="timeline-content">
+            <div class="recap-entry-image">
+              <img src="PRODUCTS-HERO-WEBSITE_832x472-HamburgerSingle_nutrition-calculator-tile.avif" alt="Projekt August">
+            </div>
+            <div class="hahhahahhahha">
+              <h4>Lehrjahr-Start & Basis-Infrastruktur</h4>
+              <p>Blabla blablabla bla bla blablabalablablablabbaljdwbbbbbbbbbbbbbbbedwioahhhhhhhhhhhhhhhhfffffffffffffffffffffff aowwddddddddddddddddddddddddddddddddddd</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-entry">
+          <div class="timeline-date-container">
+            <span class="timeline-dot"></span>
+            <div class="timeline-date-marker">September</div>
+          </div>
+          <div class="timeline-content">
+            <div class="recap-entry-image">
+              <img src="PRODUCTS-HERO-WEBSITE_832x472-HamburgerSingle_nutrition-calculator-tile.avif" alt="Projekt September">
+            </div>
+            <div class="whoopsie daisy">
+              <h4>Lehrjahr-Start & Basis-Infrastruktur</h4>
+              <p>Blabla blablabla bla bla blablabalablablablabbaljdwbbbbbbbbbbbbbbbedwioahhhhhhhhhhhhhhhhfffffffffffffffffffffff aowwddddddddddddddddddddddddddddddddddd</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section id="kontakt" class="kontakt-section">
+      <h2>Kontakt</h2>
+      <div class="kontakt-grid">
+
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <img src="PRODUCTS-HERO-WEBSITE_832x472-HamburgerSingle_nutrition-calculator-tile.avif" alt="GitHub">
+              <span>GitHub Profil</span>
+            </div>
+            <div class="flip-card-back">
+              <a href="https://github.com" target="_blank" class="contact-btn">Code ansehen</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <img src="PRODUCTS-HERO-WEBSITE_832x472-HamburgerSingle_nutrition-calculator-tile.avif" alt="Email">
+              <span>imst@gbssg.ch</span>
+            </div>
+            <div class="flip-card-back">
+              <a href="mailto:imst@gbssg.ch" class="contact-btn">E-Mail senden</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <img src="PRODUCTS-HERO-WEBSITE_832x472-HamburgerSingle_nutrition-calculator-tile.avif" alt="LinkedIn">
+              <span>LinkedIn</span>
+            </div>
+            <div class="flip-card-back">
+              <a href="https://linkedin.com" target="_blank" class="contact-btn">Vernetzen</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="info-link-container">
+        Für mehr Informationen, klicken Sie <a href="https://www.gbssg.ch" target="_blank">hier</a>.
+      </div> 
+    </section>
+
+    <footer class="site-footer">
+      <div class="footer-logo-container">
+        <img src="IMS-T Logo - 5 - negativ.svg" alt="IMS-Logo" class="footer-logo">
+      </div>
+      <div class="footer-text-container">
+        <a href="https://www.gbssg.ch" target="_blank" class="footer-link">gbssg.ch</a> | <a href="#impressum" class="footer-link">Impressum</a>
+      </div>
+    </footer>
+
   </body>
 </html>
