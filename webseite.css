@@ -70,6 +70,10 @@ nav {
   line-height: 4rem;
 }
 
+#faehigkeiten {
+  scroll-margin-top: 9vw;
+}
+
 p {
   font-size: clamp(3rem, 5vw, 8rem);
 }
