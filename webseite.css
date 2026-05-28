@@ -9,7 +9,7 @@ html {
     background-color: #ffffff; 
     color: #000000;
     font-family: 'Inter', sans-serif;
-    font-size: 16px;
+    font-size: 1.5rem;
     height: 100;
 }
 
@@ -128,7 +128,7 @@ h2 {
 }
 
 .skill-box {
-    background-color: RGB(173,202,37); 
+    background-color: #cccc00; 
     color: #000000; 
     display: flex;
     align-items: center;
