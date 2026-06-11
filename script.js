@@ -6,7 +6,7 @@ document.getElementById('ContactForm').addEventListener('submit', function(event
     const subject = document.getElementById('formSubject').value;
     const message = document.getElementById('formMessage').value;
 
-    const emailTo = "jsmnprytn@gmail.com";
+    const emailTo = "ims-t@gbssg.ch";
     const emailSubject = encodeURIComponent(subject || "Kontaktformular Nachricht");
     
     const emailBody = encodeURIComponent(
